@@ -46,11 +46,7 @@ header nav {
 header nav a {
   text-decoration: none;
   color: black;
-}
-
-header nav a:not(:last-child) {
-  border-right: 1px solid black;
-  padding-right: .5rem;
+  text-align: center;
 }
 
 .title {
