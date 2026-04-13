@@ -1,116 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wisnu Bayu - Certifications</title>
-<link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wisnu Bayu - Certifications</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <a href="https://wishba.github.io/">Home</a>|
-      <a href="https://wishba.hashnode.dev/" target="_blank" rel="noopener noreferrer">Blog</a>|
-      <a href="https://www.canva.com/design/DAHDJxYaXkM/cqPNO6tADgUISSa-UfsX5w/edit?utm_content=DAHDJxYaXkM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-        target="_blank" rel="noopener noreferrer">Resume</a>
-    </nav>
-  </header>
+  <div id="tsparticles"></div>
 
-  <section class="image-grid">
-    <h1 class="title">Wisnu Bayu's Certifications</h1>
+  <div data-aos="fade-up">
+    <header>
+      <nav>
+        <a href="https://wishba.github.io/">Home</a>|
+        <a href="https://wishba.hashnode.dev/" target="_blank" rel="noopener noreferrer">Blog</a>|
+        <a href="https://www.canva.com/design/DAHDJxYaXkM/cqPNO6tADgUISSa-UfsX5w/edit?utm_content=DAHDJxYaXkM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+          target="_blank" rel="noopener noreferrer">Resume</a>
+      </nav>
+    </header>
 
-    <!-- 1. Cloud & Backend -->
-    <div>
-      <img src="assets/dicoding backend google cloud.png" alt="backend google cloud">
-      <p>Backend Google Cloud</p>
-    </div>
-    <div>
-      <img src="assets/dicoding cloud engineer.png" alt="google cloud">
-      <p>Google Cloud</p>
-    </div>
-    <div>
-      <img src="assets/dicoding fundamental backend.png" alt="fundamental backend">
-      <p>Fundamental Backend</p>
-    </div>
-    <div>
-      <img src="assets/dicoding backend pemula.png" alt="aplikasi backend">
-      <p>Aplikasi Backend</p>
+    <main class="image-grid">
+      <h1 class="title">Wisnu Bayu's Certifications</h1>
+
+      <!-- 1. Cloud & Backend -->
+      <div>
+        <img src="assets/dicoding backend google cloud.png" alt="backend google cloud">
+        <p>Backend Google Cloud</p>
+      </div>
+      <div>
+        <img src="assets/dicoding cloud engineer.png" alt="google cloud">
+        <p>Google Cloud</p>
+      </div>
+      <div>
+        <img src="assets/dicoding fundamental backend.png" alt="fundamental backend">
+        <p>Fundamental Backend</p>
+      </div>
+      <div>
+        <img src="assets/dicoding backend pemula.png" alt="aplikasi backend">
+        <p>Aplikasi Backend</p>
+      </div>
+
+      <!-- 2. Frontend (React, Next, JS) -->
+      <div>
+        <img src="assets/codepolitan next js.png" alt="next js">
+        <p>Next Js</p>
+      </div>
+      <div>
+        <img src="assets/codepolitan react js.png" alt="react js">
+        <p>React Js</p>
+      </div>
+      <div>
+        <img src="assets/dicoding fundamental aplikasi web react.jpg" alt="fundamental react js app">
+        <p>Fundamental React Js App</p>
+      </div>
+      <div>
+        <img src="assets/dicoding aplikasi web react.png" alt="react js app">
+        <p>React Js App</p>
+      </div>
+      <div>
+        <img src="assets/dicoding frontend pemula.png" alt="frontend web">
+        <p>Frontend Web</p>
+      </div>
+      <div>
+        <img src="assets/dicoding dasar javascript.png" alt="javascript">
+        <p>Javascript</p>
+      </div>
+      <div>
+        <img src="assets/dicoding program web.png" alt="program web">
+        <p>Program Web</p>
+      </div>
+
+      <!-- 3. Machine Learning & AI -->
+      <div>
+        <img src="assets/dicoding ml google cloud.png" alt="machine learning cloud">
+        <p>Machine Learning Cloud</p>
+      </div>
+      <div>
+        <img src="assets/generative ai.png" alt="generative ai">
+        <p>Generative AI</p>
+      </div>
+      <div>
+        <img src="assets/prompt engineering.png" alt="prompt engineering">
+        <p>Prompt Engineering</p>
+      </div>
+      <div>
+        <img src="assets/dicoding ai untuk produktivitas.png" alt="ai untuk produktivitas">
+        <p>AI untuk Produktivitas</p>
+      </div>
+
+      <!-- 4. Foundational Skills -->
+      <div>
+        <img src="assets/dicoding dasar sql.png" alt="dasar sql">
+        <p>Dasar Sql</p>
+      </div>
+      <div>
+        <img src="assets/dicoding git github.png" alt="git github">
+        <p>Git Github</p>
+      </div>
+
+      <!-- 5. Productivity Tools -->
+    </main>
+
+
+    <div id="imgModal"
+      style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.8); align-items:center; justify-content:center;">
+      <span id="closeModal"
+        style="position:absolute; top:2rem; right:2rem; color:white; font-size:2rem; cursor:pointer;">&times;</span>
+      <img id="modalImg" src="" alt=""
+        style="max-width:90vw; max-height:90vh; border-radius:1rem; box-shadow:0 0 2rem #000;">
     </div>
 
-    <!-- 2. Frontend (React, Next, JS) -->
-    <div>
-      <img src="assets/codepolitan next js.png" alt="next js">
-      <p>Next Js</p>
-    </div>
-    <div>
-      <img src="assets/codepolitan react js.png" alt="react js">
-      <p>React Js</p>
-    </div>
-    <div>
-      <img src="assets/dicoding fundamental aplikasi web react.jpg" alt="fundamental react js app">
-      <p>Fundamental React Js App</p>
-    </div>
-    <div>
-      <img src="assets/dicoding aplikasi web react.png" alt="react js app">
-      <p>React Js App</p>
-    </div>
-    <div>
-      <img src="assets/dicoding frontend pemula.png" alt="frontend web">
-      <p>Frontend Web</p>
-    </div>
-    <div>
-      <img src="assets/dicoding dasar javascript.png" alt="javascript">
-      <p>Javascript</p>
-    </div>
-    <div>
-      <img src="assets/dicoding program web.png" alt="program web">
-      <p>Program Web</p>
-    </div>
-
-    <!-- 3. Machine Learning & AI -->
-    <div>
-      <img src="assets/dicoding ml google cloud.png" alt="machine learning cloud">
-      <p>Machine Learning Cloud</p>
-    </div>
-    <div>
-      <img src="assets/generative ai.png" alt="generative ai">
-      <p>Generative AI</p>
-    </div>
-    <div>
-      <img src="assets/prompt engineering.png" alt="prompt engineering">
-      <p>Prompt Engineering</p>
-    </div>
-    <div>
-      <img src="assets/dicoding ai untuk produktivitas.png" alt="ai untuk produktivitas">
-      <p>AI untuk Produktivitas</p>
-    </div>
-
-    <!-- 4. Foundational Skills -->
-    <div>
-      <img src="assets/dicoding dasar sql.png" alt="dasar sql">
-      <p>Dasar Sql</p>
-    </div>
-    <div>
-      <img src="assets/dicoding git github.png" alt="git github">
-      <p>Git Github</p>
-    </div>
-
-    <!-- 5. Productivity Tools -->
-  </section>
-
-
-  <div id="imgModal"
-    style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100vw; height:100vh; background:rgba(0,0,0,0.8); align-items:center; justify-content:center;">
-    <span id="closeModal"
-      style="position:absolute; top:2rem; right:2rem; color:white; font-size:2rem; cursor:pointer;">&times;</span>
-    <img id="modalImg" src="" alt=""
-      style="max-width:90vw; max-height:90vh; border-radius:1rem; box-shadow:0 0 2rem #000;">
+    <footer>
+      <p> &copy; <span id="copy-year"></span> Wisnu Bayu </p>
+    </footer>
   </div>
-
-  <footer>
-    <p> &copy; <span id="copy-year"></span> Wisnu Bayu </p>
-  </footer>
 
   <script>
     document.querySelectorAll('.image-grid img').forEach(img => {
@@ -127,8 +133,37 @@
     document.getElementById('imgModal').onclick = function (e) {
       if (e.target === this) this.style.display = 'none';
     };
+  </script>
+  <script>document.getElementById('copy-year').textContent = new Date().getFullYear()</script>
 
-    document.getElementById('copy-year').textContent = new Date().getFullYear()
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init()</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine@2/tsparticles.engine.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-links@2/tsparticles.preset.links.bundle.min.js"></script>
+  <script>
+      (async () => {
+        await loadLinksPreset(tsParticles);
+
+        await tsParticles.load("tsparticles", {
+          preset: "links",
+          background: {
+            color: "#ffffff",
+          },
+          particles: {
+            color: {
+              value: "#000000",
+            },
+            links: {
+              color: "#000000",
+            },
+          },
+          fullScreen: {
+            enable: true,
+            zIndex: -1
+          },
+        });
+      })();
   </script>
 </body>
 

@@ -1,7 +1,13 @@
-body {
+header,
+main,
+footer {
   max-width: 60rem;
   margin: auto;
   padding: 1rem;
+}
+
+body {
+  margin: 0;
 }
 
 header {
@@ -70,8 +76,4 @@ header nav a {
 
 .image-grid img:hover {
   transform: translate(0, -0.5rem);
-}
-
-footer p {
-  padding: 0 1rem;
 }
